@@ -1,5 +1,6 @@
 # Running
 Checks whether a script that matches the "keyword" variable at top of script is running.
+KILLS SCRIPT BY PID
 
 If it's running;
 
