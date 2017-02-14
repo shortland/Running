@@ -26,7 +26,7 @@ elsif($password !~ /^password$/) {
 	exit;
 }
 
-my $currentlyRunning = `ps x`;
+my $currentlyRunning = `ps aux`;
 if((index($currentlyRunning, "$keyword") != -1)) {
 	print "Process is currently running!\n";
 	if($kill =~ /^yes$/) {
